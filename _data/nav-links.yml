@@ -1,3 +1,6 @@
 - label: Home
   icon: home
   href: "/"
+- label: Contact
+  icon: mail-read
+  href: https://contact.kernvalley.us

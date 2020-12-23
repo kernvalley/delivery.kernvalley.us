@@ -2,34 +2,32 @@
 layout: default
 title: Home
 pinned: true
-description: A GitHub repository for easily creating fast, modern, PWA compatible websites
+description: Coming soon... Online ordering and delivery for restaurants in the Kern River Valley
+image: https://i.imgur.com/8ozvazfm.jpg
 tags:
-- jekyll
-- pwa
-- github template repo
-prerender:
-- href: /posts/2019/10/29/test/
+- dining
+- delivery
+- restaurants
+- kern valley
+- kern river valley
 ---
-<section class="pagination">
-	<div class="grid grid-gallery">
-		{% for post in paginator.posts %}
-			<div class="article-preview card shadow-dark">
-				{% include post-preview.html post=post %}
-			</div>
-		{% endfor %}
-	</div>
-	{% if paginator.previous_page or paginator.next_page %}
-		<footer class="paginate-nav">
-			{% if paginator.previous_page %}
-				<a href="{{ paginator.previous_page_path  }}" rel="prev" role="button" title="Previous page">
-					{% include icon.html icon='prev' %}
-				</a>
-			{% endif %}
-			{% if paginator.next_page %}
-				<a href="{{ paginator.next_page_path }}" role="button" rel="next" title="Next page">
-					{% include icon.html icon='next' %}
-				</a>
-			{% endif %}
-		</footer>
-	{% endif %}
+<section >
+	<div class="status-box info">
+		<h3 class="center">Coming Soon!</h3>
+		<div class="center">
+			<img src="/img/favicon.svg" height="92" width="92" referrerpolicy="no-referrer" alt="icon" loading="eager" decoding="async" />
+		</div>
+		<p>Kern Valley Delivery will be the app to order from multiple local restaurants,
+			even if they do not have a website or offer delivery. No longer will
+			there be restrictions based on whether or not a restaurant delivers
+			in your area (<em>very remote locations may involve an additional fee
+			and areas outside of the Kern River Valley are not serviced.</em>)
+		</p>
+		<p>This will also help support local businesses, especially small restaurants
+			that are having difficulty in this time of delivery-only restrictions.
+			Instead of each restaurant needing to pay for the infrastructure and
+			staff required to offer delivery, they may instead use what is
+			provided by Kern Valley Delivery.</p>
+		</p>
+	</p>
 </section>
