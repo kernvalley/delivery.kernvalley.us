@@ -1,7 +1,7 @@
 ---
 author: Chris Zuber
-title: Jekyll Template Demo
-url: 'https://infallible-galileo-ac41ee.netlify.app'
+title: Kern Valley Delivery
+url: 'https://delivery.kernvalley.us'
 markdown: kramdown
 version: 1.0.0
 timezone: America/Los_Angeles
@@ -17,30 +17,23 @@ manifest: /manifest.json
 tiles-config: /browserconfig.xml
 service_worker: "./service-worker.js"
 og-type: website
-description: "A template repository for Jekyll sites, including skeleton JS, CSS, SVGs, fonts, etc."
+description: "Coming soon... Online ordering and delivery for restaurants in the Kern River Valley"
 mobile-web-app-capable: true
-canonical: https://infallible-galileo-ac41ee.netlify.app/''
+canonical: https://delivery.kernvalley.us
 keywords:
-  - jekyll
-  - static
-  - template
-  - github
-  - CSS3
-  - HTML5
-  - responsive design
-  - progressive web app
-  - pwa
-  - ecmascript
-  - javascript
-  - es6
+  - dining
+  - delivery
+  - kern valley
+  - kern river valley
+  - restaurants
 repository:
-  username: shgysk8zer0
-  project: jekyll-template
-  title: Jekyll Template
-twitter: "shgysk8zer0"
-feed:
-  url: /feed.rss
-  type: application/rss+xml
+  username: kernvalley
+  project: delivery.kernvalley.us
+  title: Kern Valley Delivery
+twitter: "kern_valley"
+# feed:
+#   url: /feed.rss
+#   type: application/rss+xml
 icons: '/img/icons.svg'
 # discus-identifier:
 # google-analytics:
