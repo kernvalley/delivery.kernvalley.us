@@ -1,3 +1,4 @@
+---
 name: Kern Valley Delivery
 shortName: KRV Delivery
 version: 1.0.0-2020-12-23-b
@@ -50,22 +51,114 @@ screenshots:
 shortcuts:
   - name: Hamburgers
     short_name: Burgers
-    description: Shortcut to hamburger listings
+    description: Shortcut to Hamburger listings
     url: /#burgers
-    icons: []
+    icons:
+      - src: /img/burger-192.png
+        type: image/png
+        sizes: 192x192
+      - src: /img/burger-144.png
+        type: image/png
+        sizes: 144x144
+      - src: /img/burger-96.png
+        type: image/png
+        sizes: 96x96
+      - src: /img/burger-72.png
+        type: image/png
+        sizes: 72x72
+      - src: /img/burger-46.png
+        type: image/png
+        sizes: 46x46
   - name: Pizza
     short_name: Pizza
     description: Shortcut to Pizza listings
-    url: /#burgers
-    icons: []
+    url: /#pizza
+    icons:
+      - src: /img/pizza-192.png
+        type: image/png
+        sizes: 192x192
+      - src: /img/pizza-144.png
+        type: image/png
+        sizes: 144x144
+      - src: /img/pizza-96.png
+        type: image/png
+        sizes: 96x96
+      - src: /img/pizza-72.png
+        type: image/png
+        sizes: 72x72
+      - src: /img/pizza-46.png
+        type: image/png
+        sizes: 46x46
+  - name: Mexican
+    short_name: Mexican
+    description: Shortcut to Mexican listings
+    url: /#mexican
+    icons:
+      - src: /img/tacos-192.png
+        type: image/png
+        sizes: 192x192
+      - src: /img/tacos-144.png
+        type: image/png
+        sizes: 144x144
+      - src: /img/tacos-96.png
+        type: image/png
+        sizes: 96x96
+      - src: /img/tacos-72.png
+        type: image/png
+        sizes: 72x72
+      - src: /img/tacos-46.png
+        type: image/png
+        sizes: 46x46
+  - name: Steak
+    short_name: Steak
+    description: Shortcut to Pizza listings
+    url: /#steak
+    icons:
+      - src: /img/beef-192.png
+        type: image/png
+        sizes: 192x192
+      - src: /img/beef-144.png
+        type: image/png
+        sizes: 144x144
+      - src: /img/beef-96.png
+        type: image/png
+        sizes: 96x96
+      - src: /img/beef-72.png
+        type: image/png
+        sizes: 72x72
+      - src: /img/beef-46.png
+        type: image/png
+        sizes: 46x46
+  - name: Seafood
+    short_name: Seafood
+    description: Shortcut to Seafood listings
+    url: /#seafood
+    icons:
+      - src: /img/seafood-192.png
+        type: image/png
+        sizes: 192x192
+      - src: /img/seafood-144.png
+        type: image/png
+        sizes: 144x144
+      - src: /img/seafood-96.png
+        type: image/png
+        sizes: 96x96
+      - src: /img/seafood-72.png
+        type: image/png
+        sizes: 72x72
+      - src: /img/seafood-46.png
+        type: image/png
+        sizes: 46x46
 related_applications: []
 features:
   - Browse menus from multiple restaurants
   - Order from multiple restaurants in a single order
   - Fast and convenient ordering and checkout
+  - Shortcuts to popular food categories
 # https://github.com/w3c/manifest/wiki/Categories
 categories:
   - business
   - productivity
   - utilities
   - food
+---
