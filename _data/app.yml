@@ -51,7 +51,7 @@ screenshots:
 shortcuts:
   - name: Hamburgers
     short_name: Burgers
-    description: Shortcut to hamburger listings
+    description: Shortcut to Hamburger listings
     url: /#burgers
     icons:
       - src: /img/burger-192.png
@@ -89,6 +89,7 @@ shortcuts:
       - src: /img/pizza-46.png
         type: image/png
         sizes: 46x46
+  - name: Mexican
     short_name: Mexican
     description: Shortcut to Mexican listings
     url: /#mexican
@@ -153,6 +154,7 @@ features:
   - Browse menus from multiple restaurants
   - Order from multiple restaurants in a single order
   - Fast and convenient ordering and checkout
+  - Shortcuts to popular food categories
 # https://github.com/w3c/manifest/wiki/Categories
 categories:
   - business
