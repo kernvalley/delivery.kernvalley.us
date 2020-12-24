@@ -43,15 +43,6 @@ const config = {
 		'/img/icon-32.png',
 		'/img/favicon.svg',
 
-		/* Social Icons for Web Share API shim */
-		'https://cdn.kernvalley.us/img/octicons/mail.svg',
-		'https://cdn.kernvalley.us/img/logos/facebook.svg',
-		'https://cdn.kernvalley.us/img/logos/twitter.svg',
-		'https://cdn.kernvalley.us/img/logos/linkedin.svg',
-		'https://cdn.kernvalley.us/img/logos/reddit.svg',
-		'https://cdn.kernvalley.us/img/logos/gmail.svg',
-		'https://cdn.kernvalley.us/img/logos/instagram.svg',
-
 		/* Fonts */
 		'https://cdn.kernvalley.us/fonts/roboto.woff2',
 		'https://cdn.kernvalley.us/fonts/Libertine.woff',
