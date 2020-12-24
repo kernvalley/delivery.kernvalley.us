@@ -1,7 +1,7 @@
 ---
 name: Kern Valley Delivery
 shortName: KRV Delivery
-version: 1.0.0-2020-12-23-b
+version: 1.0.0-2020-12-24
 lang: en
 dir: ltr
 display: standalone
@@ -94,19 +94,19 @@ shortcuts:
     description: Shortcut to Mexican listings
     url: /#mexican
     icons:
-      - src: /img/tacos-192.png
+      - src: /img/taco-192.png
         type: image/png
         sizes: 192x192
-      - src: /img/tacos-144.png
+      - src: /img/taco-144.png
         type: image/png
         sizes: 144x144
-      - src: /img/tacos-96.png
+      - src: /img/taco-96.png
         type: image/png
         sizes: 96x96
-      - src: /img/tacos-72.png
+      - src: /img/taco-72.png
         type: image/png
         sizes: 72x72
-      - src: /img/tacos-46.png
+      - src: /img/taco-46.png
         type: image/png
         sizes: 46x46
   - name: Steak
