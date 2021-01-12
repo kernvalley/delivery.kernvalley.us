@@ -149,7 +149,9 @@ shortcuts:
       - src: /img/seafood-46.png
         type: image/png
         sizes: 46x46
-related_applications: []
+related_applications:
+  - platform: play
+    id: us.kernvalley.delivery.twa
 features:
   - Browse menus from multiple restaurants
   - Order from multiple restaurants in a single order
