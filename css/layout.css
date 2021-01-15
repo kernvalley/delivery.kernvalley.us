@@ -22,6 +22,22 @@ body.grid {
 	}
 }
 
+#nav {
+	grid-area: nav;
+}
+
+#main {
+	grid-area: main;
+}
+
+#sidebar {
+	gir-area: sidebar;
+}
+
+#footer {
+	grid-area: footer;
+}
+
 .content {
 	margin: 1.2em;
 	padding: 0.4em 1.4em;
