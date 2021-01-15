@@ -152,6 +152,8 @@ shortcuts:
 related_applications:
   - platform: play
     id: us.kernvalley.delivery.twa
+  - platform: webapp
+    url: https://delivery.kernvalley.us/manifest.json
 features:
   - Browse menus from multiple restaurants
   - Order from multiple restaurants in a single order
